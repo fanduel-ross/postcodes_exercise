@@ -1,0 +1,42 @@
+{
+  "status": 200,
+  "result": {
+    "postcode": "G22 6LS",
+    "quality": 1,
+    "eastings": 259083,
+    "northings": 668762,
+    "country": "Scotland",
+    "nhs_ha": "Greater Glasgow and Clyde",
+    "longitude": -4.254854,
+    "latitude": 55.891307,
+    "european_electoral_region": "Scotland",
+    "primary_care_trust": "Glasgow City Community Health Partnership",
+    "region": null,
+    "lsoa": "Possil Park - 03",
+    "msoa": "Possil Park",
+    "incode": "6LS",
+    "outcode": "G22",
+    "parliamentary_constituency": "Glasgow North East",
+    "admin_district": "Glasgow City",
+    "parish": null,
+    "admin_county": null,
+    "admin_ward": "Canal",
+    "ced": null,
+    "ccg": "Glasgow City Community Health Partnership",
+    "nuts": "Glasgow City",
+    "codes": {
+      "admin_district": "S12000049",
+      "admin_county": "S99999999",
+      "admin_ward": "S13002982",
+      "parish": "S99999999",
+      "parliamentary_constituency": "S14000032",
+      "ccg": "S03000043",
+      "ccg_id": "043",
+      "ced": "S99999999",
+      "nuts": "TLM82",
+      "lsoa": "S01010325",
+      "msoa": "S02001942",
+      "lau2": "S30000019"
+    }
+  }
+}

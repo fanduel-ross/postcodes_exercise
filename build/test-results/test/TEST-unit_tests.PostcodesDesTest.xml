@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unit_tests.PostcodesDesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-09-01T16:35:33" hostname="FDG-C02X16JYJG5M" time="0.015">
+  <properties/>
+  <testcase name="getCountryTest()" classname="unit_tests.PostcodesDesTest" time="0.008"/>
+  <testcase name="getRequestStatusTest()" classname="unit_tests.PostcodesDesTest" time="0.003"/>
+  <testcase name="getLongitudeTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getQualityTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getEastingsTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
+  <testcase name="getNorthingsTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
+  <testcase name="getPostcodeTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getNhsHaTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
+  <system-out><![CDATA[200
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
