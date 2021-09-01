@@ -1,3 +1,4 @@
 /.idea/
 /.gradle/
 /src/test/config.properties
+/build/
