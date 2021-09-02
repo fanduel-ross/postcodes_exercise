@@ -1,4 +1,4 @@
-package object_mapping;
+package object_mapping.data_transfer_objects;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

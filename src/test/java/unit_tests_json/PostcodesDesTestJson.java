@@ -1,10 +1,10 @@
-package unit_tests;
+package unit_tests_json;
 
 import config_management.ConfigManager;
-import http_management.PostcodesHttpMgr;
 import object_mapping.PostcodesDeserialiser;
-import object_mapping.PostcodesJsonDTO;
-import object_mapping.PostcodesRequest;
+import object_mapping.data_transfer_objects.PostcodeRequestDto;
+import object_mapping.data_transfer_objects.PostcodesJsonDTO;
+import object_mapping.data_transfer_objects.RequestDto;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -16,29 +16,23 @@ import java.util.TreeMap;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class PostcodesDesTest {
-    private static PostcodesRequest postcodesRequest;
+public class PostcodesDesTestJson {
+    private static PostcodeRequestDto requestDto;
     private static PostcodesJsonDTO postcodeDto;
 
     @BeforeAll
     private static void setup() {
-        if (ConfigManager.test_env().equals("file")) {
-            postcodesRequest = new PostcodesDeserialiser().postcodeRequestData(new File(ConfigManager.
-                    postcodeTestFileLocation()));
-            postcodeDto = postcodesRequest.getResult();
-        } else if (ConfigManager.test_env().equals("http")) {
-            PostcodesHttpMgr postcodesHttpMgr = new PostcodesHttpMgr("G226LS");
-            postcodesHttpMgr.makeUrlCall();
-            postcodesRequest = new PostcodesDeserialiser().postcodeRequestData(postcodesHttpMgr.getResponseBody());
-            postcodeDto = postcodesRequest.getResult();
 
-        }
+        File testFile = new File(ConfigManager.postcodeTestFileLocation());
+        requestDto = new PostcodesDeserialiser<>(PostcodeRequestDto.class).postcodeRequestData(testFile);
+        postcodeDto = requestDto.getResult();
+
 
     }
 
     @Test
     public void getRequestStatusTest() {
-        assertEquals(200, postcodesRequest.getStatus());
+        assertEquals(200, requestDto.getStatus());
     }
 
     @Test

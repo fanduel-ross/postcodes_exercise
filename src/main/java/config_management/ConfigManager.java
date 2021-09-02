@@ -30,9 +30,6 @@ public class ConfigManager {
         return config.getProperty("postcode_test_file_location");
     }
 
-    public static String test_env() {
-        return config.getProperty("test_env");
-    }
 
 
 }
