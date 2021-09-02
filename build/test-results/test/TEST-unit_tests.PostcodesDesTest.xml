@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="unit_tests.PostcodesDesTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-09-02T08:52:32" hostname="FDG-C02X16JYJG5M" time="0.035">
+<testsuite name="unit_tests.PostcodesDesTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-09-02T09:01:49" hostname="FDG-C02X16JYJG5M" time="0.032">
   <properties/>
-  <testcase name="getCountryTest()" classname="unit_tests.PostcodesDesTest" time="0.01"/>
+  <testcase name="getCountryTest()" classname="unit_tests.PostcodesDesTest" time="0.012"/>
   <testcase name="getAdminWardTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
-  <testcase name="getIncodeTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
-  <testcase name="getRequestStatusTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
+  <testcase name="getIncodeTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getRequestStatusTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
   <testcase name="getLongitudeTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
   <testcase name="getPrimaryCareTrustTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
-  <testcase name="getQualityTest()" classname="unit_tests.PostcodesDesTest" time="0.006"/>
+  <testcase name="getQualityTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
   <testcase name="getParliamentaryConstituencyTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
   <testcase name="getEastingsTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
   <testcase name="getLsoaTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
-  <testcase name="getNorthingsTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
-  <testcase name="getPostcodeTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
+  <testcase name="getNorthingsTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getPostcodeTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
   <testcase name="getOutcodeTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
   <testcase name="getElectoralRegionTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
-  <testcase name="getAdminDistrictTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
-  <testcase name="getNutsTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
-  <testcase name="getNhsHaTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getAdminDistrictTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
+  <testcase name="getNutsTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getNhsHaTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
   <testcase name="getMsoaTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
-  <testcase name="getCcgTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
-  <testcase name="getCodes()" classname="unit_tests.PostcodesDesTest" time="0.003"/>
-  <testcase name="getLatitudeTest()" classname="unit_tests.PostcodesDesTest" time="0.0"/>
-  <system-out><![CDATA[{admin_county=S99999999, admin_district=S12000049, admin_ward=S13002982, ccg=S03000043, ccg_id=043, ced=S99999999, lau2=S30000019, lsoa=S01010325, msoa=S02001942, nuts=TLM82, parish=S99999999, parliamentary_constituency=S14000032}
-{admin_county=S99999999, admin_district=S12000049, admin_ward=S13002982, ccg=S03000043, ccg_id=043, ced=S99999999, lau2=S30000019, lsoa=S01010325, msoa=S02001942, nuts=TLM82, parish=S99999999, parliamentary_constituency=S14000032}
-]]></system-out>
+  <testcase name="getCcgTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getCodes()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <testcase name="getLatitudeTest()" classname="unit_tests.PostcodesDesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

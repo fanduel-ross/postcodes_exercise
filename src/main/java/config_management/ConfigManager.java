@@ -1,4 +1,5 @@
 package config_management;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
@@ -17,16 +18,21 @@ public class ConfigManager {
     }
 
 
-    public static String postcodesBaserUrl(){
+    public static String postcodesBaserUrl() {
         return config.getProperty("base_url");
     }
 
-    public static String postcodesEndpoint(){
+    public static String postcodesEndpoint() {
         return config.getProperty("postcodes_endpoint");
     }
 
-    public static String postcodeTestFileLocation() { return config.getProperty("postcode_test_file_location"); }
-    public static String test_env() { return config.getProperty("test_env"); }
+    public static String postcodeTestFileLocation() {
+        return config.getProperty("postcode_test_file_location");
+    }
+
+    public static String test_env() {
+        return config.getProperty("test_env");
+    }
 
 
 }
